@@ -44,7 +44,7 @@ $paragraph_censored = str_replace($bad_word, '***', $paragraph);
     <title>Bad Words</title>
 </head>
 
-<body style="font-family: 'Roboto', sans-serif;">
+<body style="font-family: 'Roboto', sans-serif; background-color: lightcyan; text-align: center;">
     <h3>Censura una parola:</h3>
     <form method="GET">
         <input type="text" placeholder="Inserisci la parola" name="word">
