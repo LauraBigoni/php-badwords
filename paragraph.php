@@ -76,7 +76,6 @@ $paragraph_censored = str_replace($bad_word , '***' , $paragraph);
     <br>
     <hr>
     <p><?php echo $paragraph_censored?></p>
-    <span><?php echo strcasecmp($paragraph, $paragraph_censored)?></span>
 </body>
 
 </html>
